@@ -1,0 +1,281 @@
+body{
+    background: #430123;
+}
+.navbar-toggler{
+    width: 95px;
+    height: 60px;
+    border-radius: 25%;
+    color: #AE7279;
+    background-image: url(button.png);
+    background-position: center;
+}
+.navbar-nav{
+   background: #AE7279;
+    font-family: 'Mulish', sans-serif; 
+    padding-left: 20px;
+}
+
+a{
+    font-family: 'Mulish', sans-serif;
+}
+h2, h1, p, h5, li{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+.modal-content{
+    background-color: #AE7279;
+}
+.close{
+    background-color: #290317;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.header{
+ margin-left: 35px;
+}
+.myself{
+    border-radius: 440px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-right: 85px;
+    margin-top: 25px;
+}
+.container{
+    height: 100vh;
+}
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title, .facts{
+    margin: 20px;
+    text-align: center;
+}
+.technologies{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tech{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    margin: 10px;
+}
+#mycerteficates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.projpic{
+    margin: 5px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstrow, .secondrow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 5px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .flip-card-back {
+    padding: 20px;
+    text-align: center;
+    background-color: #AE7279;
+    color: white;
+    transform: rotateY(180deg);
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .visit{
+    background-color: #290317;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    padding: 5px;
+}
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+  }
+
+  @media all and (max-width:800px){
+      .container{
+          height: inherit;
+      }
+      #pictures{
+          width: 400px;
+      }
+      .secondrow{
+          justify-content: flex-start;
+      }
+
+  }
+
+  @media all and (max-width:500px){
+    .container{
+        height: fit-content;
+    }
+    .myself{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 60px;
+        margin-top: 70px;
+    }
+    #contact{
+        width: 350px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+    #pictures{
+        width: 350px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .text{
+        padding: 10px;
+    }
+    #aboutMe{
+        margin-top: 90px;
+    }
+    .header{
+        margin-bottom: 80px;
+        margin-top: 120px;
+    }
+    
+}
+@media all and (max-width:360px){
+
+    .myself{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 60px;
+        margin-top: 70px;
+    }
+    #pictures{
+        width: 250px;
+    }
+    .arrow{
+        width: 15px;
+    }
+    #back, #next{
+        width: 25px;
+    }
+}
+@media all and (max-width:320px){
+    .myself{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }  
+    .projpic{
+        width: 250px;
+        height: 250px;
+    }
+    .flip-card {
+        width: 250px;
+        height: 250px;
+        perspective: 1000px;
+        margin: 5px;
+      }
+      #contact{
+        width: 250px;
+        margin-bottom: 0;
+    }
+    #pictures{
+        width: 200px;
+    }
+    .arrow{
+        width: 7px;
+    }
+    #back, #next{
+        width: 17px;
+    }
+}
