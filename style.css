@@ -182,100 +182,99 @@ h2, h1, p, h5, li{
     opacity: 1;
   }
 
-  @media all and (max-width:800px){
-      .container{
-          height: inherit;
-      }
-      #pictures{
-          width: 400px;
-      }
-      .secondrow{
-          justify-content: flex-start;
-      }
-
+  @media all and (max-width: 800px) {
+  .container {
+    height: inherit;
   }
-
-  @media all and (max-width:500px){
-    .container{
-        height: fit-content;
-    }
-    .myself{
-        width: 300px;
-        height: 300px;
-        margin-bottom: 60px;
-        margin-top: 70px;
-    }
-    #contact{
-        width: 350px;
-    }
-    .cards{
-        display: flex;
-        justify-content: center;
-    }
-    #pictures{
-        width: 350px;
-    }
-    h2{
-        font-size: 25px;
-    }
-    .text{
-        padding: 10px;
-    }
-    #aboutMe{
-        margin-top: 90px;
-    }
-    .header{
-        margin-bottom: 80px;
-        margin-top: 120px;
-    }
-    
+  #pictures {
+    width: 400px;
+  }
+  .secondrow {
+    justify-content: flex-start;
+  }
 }
-@media all and (max-width:360px){
 
-    .myself{
-        width: 250px;
-        height: 250px;
-        margin-bottom: 60px;
-        margin-top: 70px;
-    }
-    #pictures{
-        width: 250px;
-    }
-    .arrow{
-        width: 15px;
-    }
-    #back, #next{
-        width: 25px;
-    }
+@media all and (max-width: 500px) {
+  .container {
+    height: fit-content;
+  }
+  .myself {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+  }
+  #contact {
+    width: 350px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  #pictures {
+    width: 350px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .text {
+    padding: 10px;
+  }
+  #aboutMe {
+    margin-top: 90px;
+  }
+  .header {
+    margin-bottom: 60px;
+    margin-top: 90px;
+  }
 }
-@media all and (max-width:320px){
-    .myself{
-        width: 200px;
-        height: 200px;
-        margin-bottom: 60px;
-        margin-top: 40px;
-    }  
-    .projpic{
-        width: 250px;
-        height: 250px;
-    }
-    .flip-card {
-        width: 250px;
-        height: 250px;
-        perspective: 1000px;
-        margin: 5px;
-      }
-      #contact{
-        width: 250px;
-        margin-bottom: 0;
-    }
-    #pictures{
-        width: 200px;
-    }
-    .arrow{
-        width: 7px;
-    }
-    #back, #next{
-        width: 17px;
-    }
+@media all and (max-width: 360px) {
+  .myself {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  #pictures {
+    width: 250px;
+  }
+  .arrow {
+    width: 15px;
+  }
+  #back,
+  #next {
+    width: 25px;
+  }
+}
+@media all and (max-width: 320px) {
+  .myself {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .projpic {
+    width: 250px;
+    height: 250px;
+  }
+  .flip-card {
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 5px;
+  }
+  #contact {
+    width: 250px;
+    margin-bottom: 0;
+  }
+  #pictures {
+    width: 200px;
+  }
+  .arrow {
+    width: 7px;
+  }
+  #back,
+  #next {
+    width: 17px;
+  }
 }
