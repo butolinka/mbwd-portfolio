@@ -5,7 +5,7 @@ gsap.to('.textTransition',{ text: "&lt;B&gt;<b>utolina <br>I am a WE</b> &lt;/B&
 const back = document.querySelector('#back');
 const next = document.querySelector('#next');
 
-const photos =['html.png', 'bootstrap.png', 'gsapp.png'];
+const photos =['html.png', 'bootstrap.png', 'gsapp.png', 'frontend.png'];
 let i=0;
 next.addEventListener('click', ()=>{
     i++;
