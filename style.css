@@ -1,6 +1,16 @@
 body{
     background: #430123;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #9b426b;
+  }
+  
 .navbar-toggler{
     width: 95px;
     height: 60px;
