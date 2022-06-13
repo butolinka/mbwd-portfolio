@@ -8,7 +8,7 @@ body{
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background: #9b426b;
+    background: #4b0c2c;
   }
   
 .navbar-toggler{
@@ -42,6 +42,7 @@ h2, h1, p, h5, li{
 }
 .header{
  margin-left: 35px;
+    position: absolute;
 }
 .myself{
     border-radius: 440px;
