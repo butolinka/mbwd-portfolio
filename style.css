@@ -46,7 +46,7 @@ h2, h1, p, h5, li{
 }
 .myself{
     border-radius: 440px;
-    margin-top;40px;
+    margin-top;80px;
 }
 .pic{
     display: flex;
@@ -214,7 +214,7 @@ h2, h1, p, h5, li{
     width: 300px;
     height: 300px;
     margin-bottom: 40px;
-    margin-top: 100px;
+    margin-top: 180px;
   }
   #contact {
     width: 350px;
@@ -233,11 +233,11 @@ h2, h1, p, h5, li{
     padding: 10px;
   }
   #aboutMe {
-    margin-top: 120px;
+    margin-top: 180px;
   }
   .header {
     margin-bottom: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 @media all and (max-width: 360px) {
@@ -245,7 +245,7 @@ h2, h1, p, h5, li{
     width: 250px;
     height: 250px;
     margin-bottom: 40px;
-    margin-top: 100px;
+    margin-top: 180px;
   }
   #pictures {
     width: 250px;
@@ -255,7 +255,10 @@ h2, h1, p, h5, li{
   }
       .header {
     margin-bottom: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
+  }
+     #aboutMe {
+    margin-top: 180px;
   }
   #back,
   #next {
@@ -267,11 +270,11 @@ h2, h1, p, h5, li{
     width: 200px;
     height: 200px;
     margin-bottom: 60px;
-    margin-top: 100px;
+    margin-top: 180px;
   }
       .header {
     margin-bottom: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .projpic {
     width: 250px;
