@@ -11,6 +11,13 @@ body{
     background: #4b0c2c;
   }
   
+  .overlay {
+     --clip:0%;
+    clip-path: circle(0%);
+
+  }
+  
+  
 .navbar-toggler{
     width: 95px;
     height: 60px;
