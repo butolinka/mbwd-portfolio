@@ -1,3 +1,8 @@
+gsap.to('.overlay', {
+  duration: 3,
+  clipPath: 'circle(100%)',
+  delay:2,
+})
 gsap.from('.myself',{y:-200, ease:"bounce", duration:2})
 
 gsap.to('.textTransition',{ text: "&lt;B&gt;<b>utolina <br>I am a WE</b> &lt;/B&gt;", duration:3})
