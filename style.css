@@ -39,6 +39,10 @@ h2, h1, p, h5, li{
     font-family: 'Mulish', sans-serif;
     color: white;
 }
+li{
+    text-align: left;
+}
+
 .modal-content{
     background-color: #AE7279;
 }
